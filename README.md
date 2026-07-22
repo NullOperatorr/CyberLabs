@@ -196,5 +196,8 @@ Now its verified that our Suricata rules is working, detecting malicious actions
 
 **8- Lessons Learned:**
 
+- Learned how to write and customize Suricata detection rules.
+- Understood the structure of a Suricata rule, including the header and rule options.
+- Improved my understanding of how IDS rules can be used to detect and respond to network-based attacks.
 
 
