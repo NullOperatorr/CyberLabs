@@ -17,16 +17,15 @@ sudo apt update
 sudo apt upgrade
 ```
 
-```bash
-ls
-pwd
-```
+
 
 
 **2- Installing Suricata:**
 
+```bash
 sudo apt install suricata -y
 Note: (-y) means yes to all.
+```
 
 You can verify your Suricata version by typing (Suricata)
 Press enter or click to view image in full size
