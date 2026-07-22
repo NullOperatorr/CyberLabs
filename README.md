@@ -32,9 +32,11 @@ You can verify your Suricata version by typing (Suricata)
 
 <img width="640" height="178" alt="1_6F2YMDI0Wi-HAFCY2GjwPw" src="https://github.com/user-attachments/assets/43ff64e1-b8fa-43a2-a1f5-453c1d265773" />
 
+
 You can find Suricata configuration files in the following path: (/etc/suricata)
 
 <img width="640" height="73" alt="1_CzKvc-qE9uSxHfAb4iihOQ" src="https://github.com/user-attachments/assets/f2db08c8-a5c1-4937-8f58-51add0c548eb" />
+
 
 **3- Configuring Suricata:**
 
@@ -42,20 +44,24 @@ You can find Suricata configuration files in the following path: (/etc/suricata)
 
 <img width="640" height="177" alt="1_AG4wHHqb-yRq5jqmOKQxPA" src="https://github.com/user-attachments/assets/5199ef15-dcd1-4262-ba2d-c2688008295d" />
 
+
 2- Now open the Suricata configuration file
 ```bash
 sudo mousepad /etc/suricata/suricata.yaml
 ```
+
 3- Edit the following in the configuration file:
 Update the HOME_NET with the network range your are in (for me it will be 192.168.232.0/24) as noted before then save.
 
 <img width="391" height="118" alt="1_8igNgkL9w6nnlH39XzqacA" src="https://github.com/user-attachments/assets/245402e4-5b4c-4e18-bf37-a7c5fc877677" />
+
 
 Now the Suricata is ready to work and waiting for us to make rules and see the magic but first lets update the modification we just did.
 ```bash
 sudo suricata-update
 ````
 <img width="640" height="544" alt="1_gzMzWgBuL4CAja7gBMyuFw" src="https://github.com/user-attachments/assets/5bd02805-e266-438d-a950-2fde2cb9052c" />
+
 
 ***4- Making Ping Flood Rules:****
 
