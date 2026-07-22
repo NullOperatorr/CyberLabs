@@ -12,8 +12,10 @@ Note: I will perform this task using Kali Linux Virtual Machine
 
 **1- Get your Kali Linux Up-to-date:**
 
+```bash
 sudo apt update
 sudo apt upgrade
+```
 
 ```bash
 ls
