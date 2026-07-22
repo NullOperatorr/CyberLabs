@@ -18,7 +18,7 @@ sudo apt update
 sudo apt upgrade
 ```
 
-
+---
 
 
 **2- Installing Suricata:**
@@ -37,6 +37,7 @@ You can find Suricata configuration files in the following path: (/etc/suricata)
 
 <img width="640" height="73" alt="1_CzKvc-qE9uSxHfAb4iihOQ" src="https://github.com/user-attachments/assets/f2db08c8-a5c1-4937-8f58-51add0c548eb" />
 
+---
 
 **3- Configuring Suricata:**
 
@@ -101,6 +102,8 @@ Then save.
 Note: both rule 1&2 are close to each other but they differ in the detection mode (Rule-1) detects 100req./10 sec (less sensitive & slow)
 (Rule-2) detects 50req./1 sec (More sensitive & rapid)
 
+---
+
 **5- Edit in Suricata configuration file:**
 
 1- Copy the path of the Dos.rules we created before (/home/Desktop/Dos.rules)
@@ -132,6 +135,8 @@ sudo suricata -c /etc/suricata/suricata.yaml -i eth0
 <img width="640" height="101" alt="image" src="https://github.com/user-attachments/assets/357f20e6-9511-426a-b701-a636d98e0da9" />
 
 Now we are ready to go, but lets make a small python code to test our rules and finish our task properly as requested from the manager.
+
+---
 
 **6- Python Ping-flood script:**
 
@@ -172,6 +177,8 @@ Run this script on your local PC and write the IP of the target (Kali VM).
 <img width="542" height="868" alt="image" src="https://github.com/user-attachments/assets/e9796ed6-6890-4e7c-9e02-e3811ef3cd36" />
 <img width="420" height="237" alt="image" src="https://github.com/user-attachments/assets/de0e9375-0134-483e-8afd-b3a1fa33bedf" />
 
+---
+
 **7- Checking Suricata log file:**
 the path where Suricata log its detections is (/var/log/suricata/fast.log), lets take a look at it:
 
@@ -182,6 +189,8 @@ tail /var/log/suricata/fast.log
 <img width="640" height="196" alt="image" src="https://github.com/user-attachments/assets/c2236b17-2d2f-42b4-9612-59f7b8104b68" />
 
 Now its verified that our Suricata rules is working, detecting malicious actions and task is accomplished.
+
+---
 
 **8- Lessons Learned:**
 
