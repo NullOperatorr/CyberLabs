@@ -32,7 +32,8 @@ You can verify your Suricata version by typing (Suricata)
 <img width="640" height="178" alt="1_6F2YMDI0Wi-HAFCY2GjwPw" src="https://github.com/user-attachments/assets/43ff64e1-b8fa-43a2-a1f5-453c1d265773" />
 
 You can find Suricata configuration files in the following path: (/etc/suricata)
-Press enter or click to view image in full size
+
+<img width="640" height="73" alt="1_CzKvc-qE9uSxHfAb4iihOQ" src="https://github.com/user-attachments/assets/f2db08c8-a5c1-4937-8f58-51add0c548eb" />
 
 **3- Configuring Suricata:**
 
