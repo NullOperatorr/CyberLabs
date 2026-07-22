@@ -28,7 +28,8 @@ Note: (-y) means yes to all.
 ```
 
 You can verify your Suricata version by typing (Suricata)
-Press enter or click to view image in full size
+
+<img width="640" height="178" alt="1_6F2YMDI0Wi-HAFCY2GjwPw" src="https://github.com/user-attachments/assets/43ff64e1-b8fa-43a2-a1f5-453c1d265773" />
 
 You can find Suricata configuration files in the following path: (/etc/suricata)
 Press enter or click to view image in full size
